@@ -118,8 +118,13 @@
               "devServerTarget": "og-pokemon:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "ngx-gh:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "og-pokemon"
 }
